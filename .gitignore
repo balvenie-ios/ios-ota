@@ -1,0 +1,21 @@
+# 本機工具與敏感設定
+.agentmux/
+.claude/
+.mcp.json
+.env
+.env.*
+
+# 簽名相關檔案（私鑰與描述檔不應進入 repo）
+*.p12
+*.cer
+*.mobileprovision
+*.certSigningRequest
+
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+._*
+.Spotlight-V100
+.Trashes
+.fseventsd
